@@ -1,0 +1,356 @@
+/* common css start */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d0d0d0;
+}
+
+
+
+article {
+    max-width: 960px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* common css end */
+
+/* header css start */
+header {
+    background-color: white;
+    min-height: 131px;
+
+}
+
+.top-header {
+    height: 10px;
+    width: 100%;
+    background-color: #894aa3;
+}
+
+.header-search {
+
+    background-color: #ebebea;
+    height: 28px;
+    width: 216px;
+    float: right;
+    margin-right: 32px;
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+}
+
+.header-search::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.header-search .img {
+    float: right;
+
+    margin-top: 5px;
+    margin-right: 7px;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -ms-border-radius: 0 0 5px 5px;
+    -o-border-radius: 0 0 5px 5px;
+}
+
+
+.header-logo {
+    margin-left: 30px;
+    margin-top: 36px;
+}
+
+/* header menu css start */
+.header-menu {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 69px;
+
+}
+
+
+.header-menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 31px;
+    position: relative;
+
+}
+
+.header-menu li:hover a {
+    color: black;
+}
+
+
+
+.header-menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #666666;
+}
+
+/* header menu dropdown menu css stART */
+.header-menu ul ul {
+
+    position: absolute;
+    width: 80px;
+    margin: 0;
+    padding: 0;
+    top: 100%;
+    left: 0;
+    display: none;
+
+}
+
+.header-menu ul li:hover>ul {
+    display: block;
+    background-color: rgb(194, 98, 63);
+}
+
+.header-menu ul li:hover>ul li a {
+    color:black;
+   
+}
+
+.header-menu ul ul li {
+
+    display: block;
+    padding-left: 5px;
+
+}
+
+.header-menu ul ul li:hover a {
+    border-right: 3px solid red;
+    background-color: rgba(36, 33, 33,0.4);
+}
+
+/* header menu dropdown css end */
+/* header menu css end */
+/* hedaer css end */
+
+
+
+
+
+/* info div style staart */
+.info {
+    font-size: 22px;
+    text-align: center;
+    padding: 28px 0;
+    background-color: #ebebea;
+}
+
+/* info div style ends */
+
+/* big img start */
+.big-img img {
+    width: 100%;
+    height: 382px;
+}
+
+.big-img {
+    margin-bottom: 30px;
+}
+
+/* big img ends */
+
+
+/* section start */
+.section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-bottom: 20px;
+}
+
+.section .img {
+    text-align: center;
+    margin: 0;
+}
+
+.section1 {
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+
+.section2 {
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+
+.section3 {
+
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+
+.section h3 {
+    margin-top: 13px;
+    color: #a777ba;
+}
+
+.section .text p {
+    color: #666666;
+}
+
+.section .text {
+    margin: 0;
+    padding: 0 15px;
+}
+
+.section::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* section ends */
+
+/* col style start here */
+
+.col{
+    margin-top: 50px;
+    background-color: #ebebea;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+   
+}
+
+.col .sec1{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.col .sec2{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+
+.col .sec3{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+}
+.col h3{
+    color: #a777ba;
+}
+/* col style ends here */
+
+/* details style start from here */
+
+.details{
+    display: grid;
+    grid-template-columns: auto 230px 215px auto;
+   
+    grid-column-gap: 35px;
+    margin: 40px 30px 54px 30px;
+    
+}
+
+
+.details h1{
+    text-transform: uppercase;
+    font-size: 13px;
+
+}
+.details p{
+    font-size: 13px;
+}
+.details a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #666666;
+}
+.details a:hover{
+    font-size: 13px;
+    text-decoration: underline;
+    color: #7281d8;
+}
+.det2{
+    padding: 0 20px;
+}
+ .det2 p{
+    line-height: 0.3em;
+} 
+
+.det2 h1{
+    margin-bottom: 25px;
+}
+
+.det3 span{
+    float: right;
+}
+
+.det4 input{
+    width: 210px;
+    height: 24px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #e6e6e6  ;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.det4 button{
+    color: #17246b;
+    font-weight: bolder;
+    margin-top: 5px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+/* details style ends here */
+
+/* footer style start from here */
+
+.footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #444444;
+    color:#d0d0d0 ;
+    min-height: 60px;
+}
+
+.copy{
+    text-align: left;
+    margin: auto 40px;
+    font-size: 15px;
+   
+}
+
+.os{
+    text-align: right;
+    margin: auto 40px;
+    font-size: 13px;
+  
+}
+/* footer style style ends here */
